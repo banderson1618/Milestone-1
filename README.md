@@ -5,7 +5,8 @@ The idea behind this is as a web developer you won't be asked to design just pro
 
 Also if you would like to create the first 3 pages of your portfolio site which has at least a homepage, about, and contact page then you can do that and it will be graded with similar expectations as the static site created here.
 
-Assignment
+# Assignment
+
 1) Create a new GitHub repository
 
 2) If the repo is private then make sure to add kamijean as a collaborator so I can examine the code, if it is public then you won't need to add me as collaborator.
