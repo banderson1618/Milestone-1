@@ -213,7 +213,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
-  background-color: #ffffff;
+  background-color: #53507E;
 }
 input,
 button,
@@ -1967,4 +1967,348 @@ hr {
 }
 .affix {
   position: fixed;
+}
+
+a:link {
+    text-decoration: none;
+    color: #9999FF;
+    font-weight: bold;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #9999FF;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+a:active {  
+  color: white;
+  border-bottom-color:#FF8ED8;
+  border-bottom-width:2px;
+  border-bottom-style:solid;
+}
+
+#TopMenu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    list-style-type: none;
+    margin: 0;
+    padding-right:10px;
+    overflow: hidden;
+  background-color: #53507E;
+    margin-top: 40px;
+}
+
+.HeaderLinks {
+    float: right;
+}
+
+.HeaderFont {    
+  font-family: ‘Raleway’, sans-serif;
+  font-weight: 800;
+  font-size: 12px;  
+  color: #B1AEDE; 
+  margin-left: 35px;     
+  margin-top: 12px;
+}
+
+
+#LogoImage{
+  margin-top:30px;
+  margin-left:100px;
+  height:37px;
+}
+
+
+#IndexContent{
+  padding-top:60px;
+  text-align:center;
+}
+
+
+#LeftArea {  
+  display:inline-block;
+  width: 550px;
+  vertical-align: top;
+  
+}
+
+#RightArea{
+  display:inline-block;
+  width: 550px;
+  vertical-align: top;
+  text-align:left;
+}
+
+#Headline{
+   font-family: ‘Raleway’, sans-serif;
+   font: weight 800;
+   font-size: 52px; 
+   color: white;
+   line-height: 56px;
+   margin-bottom: 35px;
+}
+
+#Subtext{
+    font-family: ‘Roboto Slab’, serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #B1AEDE;
+    margin-bottom: 120px;
+}
+
+#BigButton{
+    height: 80px;
+    width:380px;
+    border-radius: 40px;
+    box-shadow: 0 0 30px rgba(255, 142, 216, 0.75);
+    background-color: #FF8ED8;
+    font-family: ‘Raleway’, sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: white;
+}
+
+#IndexFooter{
+  margin-top: 100px;
+  height: 120px;
+  background-color: #403D65;
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+}
+
+
+#FooterMenu{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-bottom:80px;
+  margin-left:30px;
+  list-style-type:none;
+  text-align:left;
+}
+
+.FooterLinks{
+  float:left;
+}
+
+.FooterFont{    
+  font-family: ‘Raleway’, sans-serif;
+  font-weight: 800;
+  font-size: 12px;  
+  color: #B1AEDE; 
+  margin-left: 35px;     
+  margin-top: 10px;
+}
+
+#FooterSocialMenu{
+  position: absolute;
+  bottom: 0;
+  margin-bottom:75px;
+  margin-right:70px;
+  list-style-type:none;
+  right:0;
+}
+
+.FooterImage{
+  float: right;
+}
+
+.SocialImage{
+  float:right;
+  width: 34px;
+  height: 34px;
+  margin-left:10px;
+}
+
+#FooterBottomRow{
+    height: 35px; 
+    margin-top: 15px;
+    font-family: ‘Roboto Slab’, serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: #B1AEDE;
+    text-align: center;
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+#AboutContent{
+  position:relative;
+  margin-top:60px;
+  left:50%;
+  margin-left:-375px;
+}
+
+#AboutUs{ 
+  width: 750px;
+  padding: 70px;
+  margin-top: 0;
+  margin-bottom: 90px;
+  background-color: white;
+  box-shadow: 0 0 100px rgba(255, 255, 255, .75);
+}
+
+#ABit{
+  font-family: ‘Raleway’, sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  color: #FF8ED8;
+  margin-bottom: 35px;
+}
+
+.AboutBodyText{
+   font-family:‘Roboto Slab’, serif;
+   font-weight: 400;
+   font-size: 18px;
+   color: #5C5C5C;
+   max-width: 480px;
+}
+
+#Jebediah{
+  position:relative;
+  width: 750px;
+  padding: 80px 80px 80px 180px;
+  margin-top: 0;
+  margin-bottom: 90px;
+  background-color: white;
+  box-shadow: 0 0 100px rgba(255, 255, 255, .75);
+}
+
+#JebediahPic{
+   width: 208px;
+   position: absolute;
+   top: -40px;
+   left: -70px;
+   border-width: 10px;
+   border-style: solid;
+   border-color: white;
+   border-radius: 50%;
+}
+
+#Jezebelle{
+  position:relative;
+  width: 750px;
+  padding: 80px 180px 80px 80px;
+  margin-top: 0;
+  margin-bottom: 90px;
+  background-color: white;
+  box-shadow: 0 0 100px rgba(255, 255, 255, .75);
+}
+
+#JezebellePic{
+   width: 208px;
+   position: absolute;
+   top: -40px;
+   right: -70px;
+   border-width: 10px;
+   border-style: solid;
+   border-color: white;
+   border-radius: 50%;
+}
+
+.AboutName{
+   font-family: ‘Raleway’, sans-serif;
+   font-weight: 800;
+   font-size: 20px;
+   margin-bottom: 10px; 
+   color: #5C5C5C;
+}
+
+.AboutTitle{
+   font-family: ‘Raleway’, sans-serif;
+   font-weight: 800;
+   font-size: 20px;
+   margin-bottom: 10px;
+   color: #FF8ED8;
+}
+
+#JezTitle{
+  text-align:right;
+}
+#JezBody{
+  text-align:right;
+}
+
+#ContactContent{
+  position:relative;
+  margin-top:60px;
+  left:50%;
+  margin-left:-375px;
+}
+
+#ContactUsInfo{
+  width: 750px;
+  padding: 70px;
+  margin-top: 0;
+  margin-bottom: 90px;
+  background-color: white;
+  box-shadow: 0 0 100px rgba(255, 255, 255, .75);
+}
+
+#ContactInfoTitle{
+  font-family: ‘Raleway’, sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  color: #FF8ED8;
+  margin-bottom: 35px;
+}
+
+#ContactUsForm{
+  width:500px;
+  margin-left:100px;
+  text-align:center;
+}
+
+.InputStyle{
+  margin-top:15px;
+  border:none;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  height: 35px;
+  background: none;
+  font-family: ‘Roboto Slab’, serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  padding-left: 0;
+  background-color: #53507E;
+}
+
+#EmailForm{
+  width:87.5%;
+}
+
+#EmailConfirm{
+  width:87.5%;
+}
+
+#ContactUsButton{
+  border:none;
+  left:50%;
+  margin-top:15px;
+  height: 60px;
+  padding: 15px 45px;
+  border-radius: 30px;
+  box-shadow: 0 0 30px rgba(255, 142, 216, 0.75);
+  background: #FF8ED8;
+  font-family: ‘Raleway’, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  color: white;
+}
+
+#ContactUsButton:hover{
+  box-shadow: 0 0 30px rgba(64, 61, 101, 0.75);
+  color: #403D65;
 }
